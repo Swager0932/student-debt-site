@@ -1,18 +1,18 @@
 article,
 figure {
-    border: solid 2px black;
+    border: solid 5px black;
 }
-.row{
-    background-color: #daddd8;
+
+body {
+    background-color: red;
 }
+
 .row-two {
     display: flex;
     flex-direction: row;
-    background-color: #ecebe4;
 }
 
-/*TESTIMONIALS*/
-
+/*bootstrap*/
 .home-testimonial {
     background-color: #daddd8;
     height: 65vh;
@@ -36,7 +36,7 @@ figure {
 }
 
 .home-testimonial h2 {
-    color: #eef0f2;
+    color: white;
     font-size: 28px;
     font-weight: 700
 }
@@ -84,16 +84,6 @@ figure {
     color: #6c83a2
 }
 
-.footer {
-    background-color: #fafaff;
-}
+/*.carousel-item: data-bs-interval="5000"*/
 
-/*for row colors*/
-
-.row {
-    background-color: #daddd8;
-}
-
-.row-two {
-    background-color: #eef0f2;
-}
+.footer {}
