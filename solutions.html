@@ -38,7 +38,12 @@
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </article>
                 <figure class="col">
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="https://www.cnet.com/a/img/resize/1bfa0e7866b98234a7cb7595479728019303837d/hub/2022/06/24/dc4180e5-c371-4e12-a25a-8c89e996b1e2/gettyimages-1365837355.jpg?auto=webp&fit=crop&height=675&width=1200" class="d-block w-100" alt="...">
@@ -50,11 +55,11 @@
                                 <img src="https://npr.brightspotcdn.com/dims4/default/aa5d722/2147483647/strip/true/crop/5500x3667+0+0/resize/880x587!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F65%2Fb9%2F3ce8d44a4640b5fe115f39d083b8%2Fadobestock-226170026.jpeg" class="d-block w-100" class="d-block w-100" alt="...">
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
@@ -74,9 +79,6 @@
             </div>
         </section>
         <section>
-            <img src=""></img>
-        </section>
-        <section>
             <div>
                 <h1>What People Say About This Service</h1>
             </div>
@@ -84,9 +86,8 @@
         <section>
             <section class="home-testimonial">
                 <div class="container-fluid">
-                    <div class="row d-flex justify-content-center testimonial-pos">
+                    <div class="row-testimonial-top" d-flex justify-content-center testimonial-pos">
                         <div class="col-md-12 pt-4 d-flex justify-content-center">
-                            <h3>Testimonials</h3>
                         </div>
                         <div class="col-md-12 d-flex justify-content-center">
                             <h2>Explore the students experience</h2>
@@ -94,7 +95,7 @@
                     </div>
                     <section class="home-testimonial-bottom">
                         <div class="container testimonial-inner">
-                            <div class="row d-flex justify-content-center">
+                            <div class="row-testimonial-bottom d-flex justify-content-center">
                                 <div class="col-md-4 style-3">
                                     <div class="tour-item ">
                                         <div class="tour-desc bg-white">
