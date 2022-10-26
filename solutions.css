@@ -6,10 +6,13 @@ figure {
 body {
     background-color: red;
 }
-
+.row{
+    background-color: #daddd8 ;
+}
 .row-two {
     display: flex;
     flex-direction: row;
+    background-color: #eef0f2 ;
 }
 
 /*bootstrap*/
