@@ -1,5 +1,4 @@
-.img-holder {
-    width: 300px;
-    height: 300px;
-    background-color: salmon;
+.col-6,
+.col-5 {
+    flex-wrap: wrap;
 }
