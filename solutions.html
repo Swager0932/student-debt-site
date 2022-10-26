@@ -11,7 +11,8 @@
 
 </head>
 
-<body>
+<body class="h-auto">
+    <main class="h-100">
     <header>
         <nav class="navbar navbar-dark navbar-expand-lg bg-dark fixed-top">
             <div class="container-fluid">
@@ -37,9 +38,28 @@
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </article>
             <figure class="col">
-                <img class="container-fluid" src="https://www.cnet.com/a/img/resize/1bfa0e7866b98234a7cb7595479728019303837d/hub/2022/06/24/dc4180e5-c371-4e12-a25a-8c89e996b1e2/gettyimages-1365837355.jpg?auto=webp&fit=crop&height=675&width=1200"></img>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://www.cnet.com/a/img/resize/1bfa0e7866b98234a7cb7595479728019303837d/hub/2022/06/24/dc4180e5-c371-4e12-a25a-8c89e996b1e2/gettyimages-1365837355.jpg?auto=webp&fit=crop&height=675&width=1200" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://media.cnn.com/api/v1/images/stellar/prod/220828073453-student-debt-demonstration.jpg?c=original" class="d-block w-100" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://npr.brightspotcdn.com/dims4/default/aa5d722/2147483647/strip/true/crop/5500x3667+0+0/resize/880x587!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F65%2Fb9%2F3ce8d44a4640b5fe115f39d083b8%2Fadobestock-226170026.jpeg" class="d-block w-100" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </figure>
-        </div>
     </section>
     <section>
         <h1>Our Solutions</h1>
@@ -47,7 +67,7 @@
             <img src="https://a39.asmdc.org/sites/a74.asmdc.org/files/styles/image_450/public/page_images/StudentDebt_Logo-02.png?itok=1DF_UwrJ">
             </img>
         </figure>
-         <article>
+        <article>
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </article>
     </section>
@@ -107,9 +127,10 @@
                 </section>
         </section>
     </section>
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+   <footer class="footer-copyright text-center p-4 h-auto mt-5 bg-light position-relative">© 2020 Copyright:
         <a href="/" class="link-dark">StudentDebt.com</a>
-    </div>
+    </footer>
+    </main>
 </body>
 
 </html>
