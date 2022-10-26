@@ -13,7 +13,7 @@ body{
 /*bootstrap*/
 .home-testimonial {
     background-color: #daddd8;
-    height: 380px
+    height: 100vh;
 }
 
 .home-testimonial-bottom {
@@ -82,4 +82,10 @@ body{
     color: #6c83a2
 }
 
-.carousel-item: data-bs-interval="5000"
+/*.carousel-item: data-bs-interval="5000"*/
+
+.footer{
+    
+}
+
+
