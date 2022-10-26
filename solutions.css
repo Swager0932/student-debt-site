@@ -2,9 +2,11 @@ article,
 figure {
     border: solid 5px black;
 }
-body{
-    background-color: red; 
+
+body {
+    background-color: red;
 }
+
 .row-two {
     display: flex;
     flex-direction: row;
@@ -13,7 +15,7 @@ body{
 /*bootstrap*/
 .home-testimonial {
     background-color: #daddd8;
-    height: 100vh;
+    height: 65vh;
 }
 
 .home-testimonial-bottom {
@@ -84,8 +86,4 @@ body{
 
 /*.carousel-item: data-bs-interval="5000"*/
 
-.footer{
-    
-}
-
-
+.footer {}
