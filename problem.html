@@ -14,15 +14,15 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+        <nav class="navbar navbar-dark fixed-top navbar-expand-lg bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" aria-current="page" href="#">Student Debt</a>
+                <a class="navbar-brand" href="#">Student Debt</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <!--This div centers the nav links using bootstrap-->
-                <div class="collapse navbar-collapse"></div>
+                <!--<div class="collapse navbar-collapse"></div>-->
 
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
@@ -35,7 +35,7 @@
         </nav>
     </header>
     <main>
-        <section class="the-problem-section p-5 bg-light rounded-3">
+        <section class="the-problem-section container-fluid p-5 bg-light">
             <article class="container-fluid py-5">
                 <h1 class="display-1 fw-bold">The Problem.</h1>
                 <br>
@@ -66,10 +66,22 @@
                     zzril delenit augue duis dolore te feugait nulla facilisi.
                     .</p>
             </article>
+            <article class="row container p-5 text-bg-secondary">
+                <p class="col p-5 fs-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                    quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                    ut aliquip ex ea commodo consequat.</p>
+                <figure class="col">
+                    <div class="img-holder"></div>
+                </figure>
+            </article>
         </section>
     </main>
-    <footer>
-
+    <footer class="bg-light container-fluid p-4">
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="/" class="link-dark">StudentDebt.com</a>
+        </div>
     </footer>
 </body>
 
