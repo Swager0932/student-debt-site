@@ -1,9 +1,9 @@
-
+h1{
+    text-align: center;
+}
 body{
     width:100vw;
 }
-
-
 
 header{
     width:100%;
@@ -35,15 +35,28 @@ main{
     justify-content:center;
     align-items:center;
     flex-direction:column;
+    margin-bottom: 100px;
 }
 
+img{
+margin-bottom: 50px;
+}
 .hr{
-   margin:0rem 0px; 
-   padding:0px;
+    margin-top: 50px;
+   padding:25px;
 }
 
 article{
-    border:1px brown solid;
+    /*border:1px brown solid;*/
+    max-width:1000px;
+    width:100%;
+    margin:20px;
+    text-align: center;
+}
+.default-article{
+    display:flex;
+    justify-content:center;
+    /*border:1px brown solid;*/
     max-width:1000px;
     width:80%;
     margin:20px;
@@ -72,11 +85,7 @@ article{
     -webkit-text-stroke: .5px #000000;
 }
 
-.first-slide{
+.tech-slide{
     color:#2e5181;
-    -webkit-text-stroke: .2px #FFF;
-<<<<<<< HEAD
+    -webkit-text-stroke: .3px #FFFFFF;
 }
-=======
-}
->>>>>>> a6e434e13225eca3ecc1e44d22ce803ab9dd12ae
