@@ -35,13 +35,13 @@
             <div class="container-fluid d-flex justify-content-end">
                 <div class="mt-5 ms-auto btn-group me-2" role="group" aria-label="Second group">
                     <button type="button" class="px-3 btn btn-dark">
-                        <a class="nav-link" href="#problem">The Problem</a>
+                        <a class="nav-link" href="#">The Problem</a>
                     </button>
                     <button type="button" class="px-3 btn btn-dark">
-                        <a class="nav-link" href="#why">Why?</a>
+                        <a class="nav-link" href="#">Why?</a>
                     </button>
                     <button type="button" class="px-3 btn btn-dark">
-                        <a class="nav-link" href="#statistics">Statistics</Statistics>
+                        <a class="nav-link" href="#">Statistics</Statistics>
                     </button>
                 </div>
             </div>
@@ -114,7 +114,7 @@
                 </section>
             </article>
         </section>
-        <section class="the-problem-section container-fluid p-5 text-dark" style="background: #FAFAFF">
+        <section data-spy="scroll" data-target="#nav-section" data-offset="0" class="the-problem-section container-fluid p-5 text-dark" style="background: #FAFAFF">
             <div class="container-fluid d-flex justify-content-end">
                 <div class="mt-5 ms-auto btn-group me-2" role="group" aria-label="Second group">
                     <button type="button" class="px-3 btn btn-dark">
@@ -130,60 +130,62 @@
             </div>
             <article class="container-fluid py-5">
                 <h1 class="col display-1 fw-bold">Statistics</h1>
-                <table class="table fs-5 mt-5">
-                    <thead class="thead">
-                        <tr>
-                            <th scope="col">Debt Type</th>
-                            <th scope="col">Average Debt</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">Bachelor's degree debt</th>
-                            <td>$28,950</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Graduate School loan debt</th>
-                            <td>$71,000</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Parent PLUS loan debt</th>
-                            <td>$28,778</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Law school debt</th>
-                            <td>$145,500</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">MBA student debt</th>
-                            <td>$66,300</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Medical school debt</th>
-                            <td>$201,490</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Dental school debt</th>
-                            <td>$292,169</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Pharmacy school loan debt</th>
-                            <td>$179,514</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Nursing school student debt</th>
-                            <td>
-                                $19,928: Associate Degree Nursing (ADN)<br><br>
-                                $23,711: Bachelor of Science in Nursing (ADN)<br><br>
-                                $47,321: Master of Science in Nursing (MSN)
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Veterinary school debt</th>
-                            <td>$183,302</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="container">
+                    <table class="table fs-5 mt-5">
+                        <thead class="thead bg-dark text-white">
+                            <tr>
+                                <th scope="col">Debt Type</th>
+                                <th scope="col">Average Debt</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Bachelor's degree debt</th>
+                                <td>$28,950</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Graduate School loan debt</th>
+                                <td>$71,000</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Parent PLUS loan debt</th>
+                                <td>$28,778</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Law school debt</th>
+                                <td>$145,500</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">MBA student debt</th>
+                                <td>$66,300</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Medical school debt</th>
+                                <td>$201,490</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Dental school debt</th>
+                                <td>$292,169</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Pharmacy school loan debt</th>
+                                <td>$179,514</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Nursing school student debt</th>
+                                <td>
+                                    $19,928: Associate Degree Nursing (ADN)<br><br>
+                                    $23,711: Bachelor of Science in Nursing (ADN)<br><br>
+                                    $47,321: Master of Science in Nursing (MSN)
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Veterinary school debt</th>
+                                <td>$183,302</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </article>
         </section>
     </main>
