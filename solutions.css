@@ -6,6 +6,9 @@ figure {
 body {
     background-color: red;
 }
+.h1{
+    margin: 40px;
+}
 .row{
     background-color: #daddd8 ;
 }
