@@ -3,19 +3,20 @@ figure {
     border: solid 5px black;
 }
 
-body {
-    background-color: red;
-}
+
 .h1{
     margin: 40px;
 }
 .row{
     background-color: #daddd8 ;
 }
-.row-two {
-    display: flex;
-    flex-direction: row;
+.two {
     background-color: #eef0f2 ;
+    
+}
+.piggy-bank{
+    height: 300px;
+    width: 300px;
 }
 
 /*bootstrap*/
@@ -89,7 +90,7 @@ body {
     font-size: 12px;
     color: #6c83a2
 }
-
-/*.carousel-item: data-bs-interval="5000"*/
-
-.footer {}
+.navbar{
+    position: sticky;
+    top: 0;
+}
