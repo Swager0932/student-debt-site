@@ -17,6 +17,10 @@ body {
     flex-direction: row;
     background-color: #cde6d1 ;
 }
+.piggy-bank{
+    height: 300px;
+    width: 300px;
+}
 
 /*bootstrap*/
 .home-testimonial {
