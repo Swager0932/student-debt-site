@@ -3,9 +3,7 @@ figure {
     border: solid 5px black;
 }
 
-body {
-    background-color: red;
-}
+
 .h1{
     margin: 40px;
 }
@@ -13,7 +11,7 @@ body {
     background-color: #daddd8 ;
 }
 .two {
-    background-color: #cde6d1 ;
+    background-color: #eef0f2 ;
     
 }
 .piggy-bank{
@@ -91,4 +89,8 @@ body {
     font-family: "Montserrat", Sans-serif;
     font-size: 12px;
     color: #6c83a2
+}
+.navbar{
+    position: sticky;
+    top: 0;
 }
