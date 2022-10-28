@@ -144,6 +144,8 @@ a{
        text-decoration: white underline;
        color:black;
        border:1px solid grey;
+       /*padding:5px;*/
+       /*margin-bottom: 10px;*/
 }
 
 .link-but{
