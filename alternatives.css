@@ -141,8 +141,9 @@ a{
 }
 
 .c-button{
-       text-decoration: none;
+       text-decoration: white underline;
        color:black;
+       border:1px solid grey;
 }
 
 .link-but{
