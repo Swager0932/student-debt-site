@@ -3,71 +3,66 @@
 
 <head>
     <title>Student Debt</title>
+    <!--META TAGS-->
     <meta name="viewport" content="width=device-width" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="problem.css" type="text/css" />
-    <!-- CSS only -->
+
+    <!-- CSS BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header>
-        <nav class="p-2 navbar navbar-dark fixed-top navbar-expand-lg" style="background: #1C1C1C">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Student Debt</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link" href="./problem.html">The Problem</a>
-                        <a class="nav-link" href="./solutions.html">Solutions</a>
-                        <a class="nav-link" href="./alternatives.html">Alternatives</a>
-                    </div>
+    <nav class="px-3 navbar navbar-dark fixed-top navbar-expand-lg" style="background: #1C1C1C">
+        <div class="container-fluid">
+            <a class="navbar-brand lead" href="#">Student Debt</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="./problem.html">Home</a>
+                    <a class="nav-link" href="./solutions.html">Solutions</a>
+                    <a class="nav-link" href="./alternatives.html">Alternatives</a>
                 </div>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
     <main>
-        <section class="the-problem-section container-fluid p-5 text-dark" style="background: #FAFAFF">
+        <section id="problem" class="problem-section container-fluid p-5 text-dark" style="background: #FAFAFF" data-bs-spy="scroll" data-bs-target="#section-nav" data-bs-offset="0" tabindex="0">
             <div class="container-fluid d-flex justify-content-end">
-                <div class="mt-5 ms-auto btn-group me-2" role="group" aria-label="Second group">
-                    <button type="button" class="px-3 btn btn-dark">
-                        <a class="nav-link" href="#">The Problem</a>
-                    </button>
-                    <button type="button" class="px-3 btn btn-dark">
-                        <a class="nav-link" href="#">Why?</a>
-                    </button>
-                    <button type="button" class="px-3 btn btn-dark">
-                        <a class="nav-link" href="#">Statistics</Statistics>
-                    </button>
+                <div class="btn-group mt-5" id="section-nav">
+                    <a href="#problem" class="btn btn-dark">The Problem</a>
+                    <a href="#why" class="btn btn-dark">Why?</a>
+                    <a href="#stat" class="btn btn-dark">Statistics</a>
                 </div>
             </div>
             <article class="container-fluid py-5">
-                <h1 class="col display-1 fw-bold">The Problem.</h1>
+                <h1 class="col display-1 fw-bold px-5">The Problem.</h1>
                 <br>
-                <p class="fs-4">Student debt is a form of debt that is owed by an attending, formerly withdrawn, or graduated student to a lending institution, or to a financial institution. Soaring college costs and pressure to compete in the job marketplace are big factors for student loan debt. Student loans are the most common form of educational debt, followed by credit cards and other types of credit.
+                <p class="lead fs-4 px-5">Student debt is a form of debt that is owed by an attending, formerly withdrawn, or graduated student to a lending institution, or to a financial institution. Soaring college costs and pressure to compete in the job marketplace are big factors for student loan debt. Student loans are the most common form of educational debt, followed by credit cards and other types of credit.
                     <br><br><strong>Student loan borrowers in the United States owe a collective nearly $1.75 trillion in federal and private student loan debt</strong> as of August 2022, according to the Federal Reserve Bank of St. Louis. Expecting an 18 to 19-year-old coming straight out of high school to understand and manage a large abundance of money with no previous experience is lucrative.
                 </p>
             </article>
             <section class="p-4 p-md-5 text-center text-lg-start rounded-2">
                 <div class="row d-flex justify-content-center">
-                    <div class="col-md-10">
+                    <div class="col-md-7">
                         <div class="card">
                             <div class="card-body m-3">
                                 <div class="row text-center">
                                     <div class="col-lg-4 d-flex justify-content-center align-items-center mb-4 mb-lg-0">
-                                        <img src="https://i.guim.co.uk/img/media/028c6ddf2c05d60c35d69aea98e965c1eca90e8a/0_106_4368_2622/master/4368.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=84e578be0475749ac3a7f95feb830c9b" alt="ken robinson" width="200" height="200" class="rounded-5" />
+                                        <img src="https://kagc.us/wp-content/uploads/2018/09/Hank-Johnson-600x600.jpg" alt="ken robinson" width="200" height="200" class="rounded-5" />
                                     </div>
-                                    <div class="col mt-4">
+                                    <div class="col mt-5 blockquote">
                                         <em>
                                             <p>
-                                                “The dropout crisis is just the tip of an iceberg. What it doesn’t count are all the kids who are in school but being disengaged from it, who don’t enjoy it, who don’t get any real benefit from it.”
+                                                “The rising costs of higher education coupled with the stress of paying student loans are putting increasing pressure on students.”
                                             </p>
                                         </em>
-                                        <p class="fw-bold lead mb-2"><strong>Ken Robinson</strong></p>
+                                        <p class="fw-bold lead mb-2"><strong>Hank Johnson</strong></p>
                                     </div>
                                 </div>
                             </div>
@@ -75,31 +70,24 @@
                     </div>
                 </div>
             </section>
-        </section>
-        <section class="why-section container-fluid p-5 text-white" style="background: #1C1C1C">
+        <section id="why" class="why-section container-fluid p-5 text-white" style="background: #1C1C1C" data-bs-spy="scroll" data-bs-target="#section-nav" data-bs-offset="0" tabindex="0">
             <div class="container-fluid d-flex justify-content-end">
-                <div class="mt-5 ms-auto btn-group me-2" role="group" aria-label="Second group">
-                    <button type="button" class="px-3 btn btn-dark">
-                        <a class="nav-link" href="#problem">The Problem</a>
-                    </button>
-                    <button type="button" class="px-3 btn btn-dark">
-                        <a class="nav-link" href="#why">Why?</a>
-                    </button>
-                    <button type="button" class="px-3 btn btn-dark">
-                        <a class="nav-link" href="#statistics">Statistics</Statistics>
-                    </button>
+                <div class="btn-group mt-5" id="section-nav">
+                    <a href="#problem" class="btn btn-dark">The Problem</a>
+                    <a href="#why" class="btn btn-dark">Why?</a>
+                    <a href="#stat" class="btn btn-dark">Statistics</a>
                 </div>
             </div>
             <article class="why-article col container-fluid p-5 rounded-3x">
                 <h1 class="display-1 fw-bold">Why?</h1>
                 <br>
-                <p class="fs-4">
+                <p class="lead fs-4">
                     Signs of trouble with student borrowing began to appear by the late 1980s. In 1986, parents and students had incurred nearly $10 billion in federal student loans. All these years and it seems there has never been a <strong>TRUE</strong> solution to this ongoing problem; A problem that affects the futures of these individuals mentally & financially.
                 </p>
                 <section class="row mt-5">
                     <article class="col affects-article container text-dark mb-5 rounded-3 p-5 text-center" style="background: #ECEBE4">
                         <h1 class="display-3 fw-bold p-3">The Economic Drag.</h1>
-                        <p class="fs-4">
+                        <p class="fs-4 lead p-2">
                             According to a CNBC report, “85 percent of student loan borrowers say difficulty in saving has delayed their ability to buy a house,” and other research indicates that “Those with student loan debt also are less likely to have taken out car loans. They have worse credit scores. They appear to be more likely to be living with their parents." Defaults and delinquencies are also more common with student loan debt than just about any other kind. While credit card default rates have dropped under 10 percent thanks to stricter borrowing guidelines, the rate of student loans in “serious delinquency” has gone up to 11.5 percent.
                         </p>
                     </article>
@@ -107,92 +95,94 @@
                 <section class="row">
                     <article class="col affects-article container p-5 text-dark rounded-3 text-center" style="background: #ECEBE4">
                         <h1 class="display-3 fw-bold p-3">Are Student Loans Tailored?</h1>
-                        <p class="cp-5 fs-4">
+                        <p class="lead cp-5 fs-4 p-2">
                             Students from low-income backgrounds still face the greatest struggle when it comes to earning college degrees. Unstable home lives, lower-quality high schools and other frequent corollaries of low-income neighborhoods present plenty of obstacles even before loan debt becomes an issue.<br><br>For students from middle-class backgrounds, the road to a degree seems easier. Their families often have money saved; their schools and support systems tend to prepare them well for the next step. Nevertheless, finances are still a roadblock, and middle-class students actually shoulder more student loan debt than anyone after graduating.
                         </p>
                     </article>
                 </section>
             </article>
         </section>
-        <section data-spy="scroll" data-target="#nav-section" data-offset="0" class="the-problem-section container-fluid p-5 text-dark" style="background: #FAFAFF">
+        <section id="stat" class="statistics-section container-fluid p-5 text-dark" style="background: #FAFAFF" data-bs-spy="scroll" data-bs-target="#section-nav" data-bs-offset="0" tabindex="0">
             <div class="container-fluid d-flex justify-content-end">
-                <div class="mt-5 ms-auto btn-group me-2" role="group" aria-label="Second group">
-                    <button type="button" class="px-3 btn btn-dark">
-                        <a class="nav-link" href="#problem">The Problem</a>
-                    </button>
-                    <button type="button" class="px-3 btn btn-dark">
-                        <a class="nav-link" href="#why">Why?</a>
-                    </button>
-                    <button type="button" class="px-3 btn btn-dark">
-                        <a class="nav-link" href="#statistics">Statistics</Statistics>
-                    </button>
+                <div class="btn-group mt-5" id="section-nav">
+                    <a href="#problem" class="btn btn-dark">The Problem</a>
+                    <a href="#why" class="btn btn-dark">Why?</a>
+                    <a href="#stat" class="btn btn-dark">Statistics</a>
                 </div>
             </div>
-            <article class="container-fluid py-5">
-                <h1 class="col display-1 fw-bold">Statistics</h1>
+            <article class="container-fluid">
                 <div class="container">
-                    <table class="table fs-5 mt-5">
-                        <thead class="thead bg-dark text-white">
-                            <tr>
-                                <th scope="col">Debt Type</th>
-                                <th scope="col">Average Debt</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">Bachelor's degree debt</th>
-                                <td>$28,950</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Graduate School loan debt</th>
-                                <td>$71,000</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Parent PLUS loan debt</th>
-                                <td>$28,778</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Law school debt</th>
-                                <td>$145,500</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">MBA student debt</th>
-                                <td>$66,300</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Medical school debt</th>
-                                <td>$201,490</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Dental school debt</th>
-                                <td>$292,169</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Pharmacy school loan debt</th>
-                                <td>$179,514</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Nursing school student debt</th>
-                                <td>
-                                    $19,928: Associate Degree Nursing (ADN)<br><br>
-                                    $23,711: Bachelor of Science in Nursing (ADN)<br><br>
-                                    $47,321: Master of Science in Nursing (MSN)
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Veterinary school debt</th>
-                                <td>$183,302</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <h1 class="col display-1 fw-bold">Statistics</h1>
+                    <div class="container">
+                        <table class="table table-hover lead fs-5 mt-4">
+                            <h1 class="display-5 lead mt-5 pb-3">Average student loan debt</h1>
+                            <thead class="thead text-white" style="background: #1C1C1C">
+                                <tr>
+                                    <th scope="col">Debt Type</th>
+                                    <th scope="col">Average Debt</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Bachelor's degree debt</th>
+                                    <td>$28,950</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Graduate School loan debt</th>
+                                    <td>$71,000</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Parent PLUS loan debt</th>
+                                    <td>$28,778</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Law school debt</th>
+                                    <td>$145,500</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">MBA student debt</th>
+                                    <td>$66,300</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Medical school debt</th>
+                                    <td>$201,490</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Dental school debt</th>
+                                    <td>$292,169</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Pharmacy school loan debt</th>
+                                    <td>$179,514</td>
+                                </tr>
+                                <tr>
+                                    <th class="align-middle" scope="row">Nursing school student debt</th>
+                                    <td>
+                                        $19,928: Associate Degree Nursing (ADN)<br><br>
+                                        $23,711: Bachelor of Science in Nursing (ADN)<br><br>
+                                        $47,321: Master of Science in Nursing (MSN)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Veterinary school debt</th>
+                                    <td>$183,302</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </article>
         </section>
     </main>
-    <footer class="footer-copyright text-center p-4 d-flex justify-content-center bg-dark text-white container-fluid">© 2020 Copyright:
-        <a href="#" class="text-white">StudentDebt.com</a>
-        <button type="button" class="btn btn-light">^</button>
+    <footer class="footer-copyright d-flex justify-content-between p-4 text-white container-fluid" style="background: #1C1C1C">
+        <a class="text-white text-decoration-none pt-2">
+            © 2020 Copyright: StudentDebt.com
+        </a>
+        <button type="button" class="btn btn-light text-decoration-none">
+            <a href="#" class="text-decoration-none text-dark">^</a>
+        </button>
     </footer>
+
 </body>
 
 </html>
