@@ -1,12 +1,16 @@
-html{
-    width: 100vw;
-}
+/*html{*/
+/*    width: 100vw;*/
+/*}*/
 
 h1{
     text-align: center;
 }
 body{
-    width:100vw;
+    width:100%;
+}
+
+.nav-link{
+    margin-bottom: 0px;
 }
 
 header{
@@ -34,12 +38,12 @@ main{
 }
 
 .default{
-    height:1000px;
     display:flex;
     justify-content:center;
     align-items:center;
     flex-direction:column;
     margin-bottom: 100px;
+    width: 100%;
 }
 
 img{
@@ -51,7 +55,6 @@ margin-bottom: 50px;
 }
 
 article{
-    /*border:1px brown solid;*/
     max-width:1000px;
     width:100%;
     margin:20px;
@@ -60,7 +63,6 @@ article{
 .default-article{
     display:flex;
     justify-content:center;
-    /*border:1px brown solid;*/
     max-width:1000px;
     width:80%;
     margin:20px;
@@ -97,7 +99,8 @@ article{
 .c-button{
     text-align: center;
     border: solid white 1px;
-    width: 150px;
+    width: auto;
+    padding: 5px;
     height: 50px;
     border-radius: 16px;
     background-color: white;
@@ -111,17 +114,50 @@ a{
 }
 
 #carousel{
-    width: 70vw;
-    min-width: 632px;
+    width: 70%;
+    min-width: 300px;
+    max-width: 100%;
+    display: flex;
+    justify-content:center;
+}
+
+#carouselExampleCaptions{
+    width: 100%;
+}
+
+.carousel-inner{
+    width: 100%;
 }
 
 .slides{
-   width:70vw; 
+   width:100%; 
 }
 
-#trade-school{
-    display:flex;
-}
+
+
 .pro-img{
     width: 70%;
+}
+
+.c-button{
+       text-decoration: white underline;
+       color:black;
+       border:1px solid grey;
+       /*padding:5px;*/
+       /*margin-bottom: 10px;*/
+}
+
+.link-but{
+    padding:10px;
+    border:1px solid black;
+    border-radius:15px ;
+    
+}
+
+.carousel-caption{
+    
+}
+
+@media (min-width:770){
+    
 }
