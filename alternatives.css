@@ -5,6 +5,7 @@
 h1{
     text-align: center;
 }
+
 body{
     width:100%;
 }
@@ -20,7 +21,7 @@ header{
     display:flex;
     justify-content:center;
     align-items:center;
-    margin-top: 85px;
+    margin-top: 66px;
 }
 .head-text{
      display:flex;
